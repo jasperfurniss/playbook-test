@@ -1,0 +1,61 @@
+Arguments: 
+  /home/sandbox/.nvm/versions/node/v14.19.3/bin/node /home/sandbox/.nvm/versions/node/v14.19.3/bin/yarn
+
+PATH: 
+  /home/sandbox/.nvm/versions/node/v14.19.3/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  14.19.3
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://npm.fontawesome.com/@fortawesome%2ffontawesome-pro: authentication required
+      at Request.params.callback [as _callback] (/home/sandbox/.nvm/versions/node/v14.19.3/lib/node_modules/yarn/lib/cli.js:66145:18)
+      at Request.self.callback (/home/sandbox/.nvm/versions/node/v14.19.3/lib/node_modules/yarn/lib/cli.js:140890:22)
+      at Request.emit (events.js:400:28)
+      at Request.<anonymous> (/home/sandbox/.nvm/versions/node/v14.19.3/lib/node_modules/yarn/lib/cli.js:141862:10)
+      at Request.emit (events.js:400:28)
+      at IncomingMessage.<anonymous> (/home/sandbox/.nvm/versions/node/v14.19.3/lib/node_modules/yarn/lib/cli.js:141784:12)
+      at Object.onceWrapper (events.js:519:28)
+      at IncomingMessage.emit (events.js:412:35)
+      at endReadableNT (internal/streams/readable.js:1333:12)
+      at processTicksAndRejections (internal/process/task_queues.js:82:21)
+
+npm manifest: 
+  {
+    "name": "finally-working",
+    "version": "1.0.0",
+    "description": "",
+    "keywords": [],
+    "main": "src/index.js",
+    "dependencies": {
+      "react": "16.13.1",
+      "react-dom": "16.13.1",
+      "react-scripts": "^2.0.0",
+      "playbook-ui": "11.12.1",
+      "@fortawesome/fontawesome-pro": "6.2.0",
+      "@fortawesome/fontawesome-svg-core": "6.2.0",
+      "@fortawesome/pro-solid-svg-icons": "6.2.0"
+    },
+    "devDependencies": {
+      "typescript": "3.8.3"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test --env=jsdom",
+      "eject": "react-scripts eject"
+    },
+    "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"]
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
